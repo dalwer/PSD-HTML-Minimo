@@ -1,0 +1,242 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+.c-title, .c-comment{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;;
+}
+.c-heading{
+	font-weight: 700;
+	font-size: 30px;
+}
+.c-para{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.container01{
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+.container02{
+	width: 75%;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+
+
+/*header area start*/
+header{
+	padding: 70px 0;
+}
+.header-area{
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+    float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+    padding: 0;
+}
+.menu ul li{
+	float: left;
+	margin-left: 100px;
+}
+.menu ul li a{
+	text-decoration: none;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    text-transform: uppercase;
+}    
+.menu ul li a:hover{
+	color: black;
+}
+/*banner area start*/
+.banner{}
+.banner-img{
+	margin-bottom: 100px;
+}
+.banner-img img{
+	width: 100%;
+}
+/*getway area start*/
+.getway{}
+.get-content{}
+.get-content p.c-title{
+	margin: 0;
+    padding-bottom: 30px;
+}
+.get-content h1.c-heading{
+	margin: 0;
+    padding-bottom: 40px;
+}
+.get-content p.c-para{
+	margin: 0;
+    padding-bottom: 50px;
+    word-spacing: 3px;
+}
+.get-content p.c-comment{
+	margin: 0;
+}
+
+/* blog area start*/
+.blog-wrapper{
+
+}
+.blog{
+	padding: 135px 0;
+}
+.blog-top{
+	overflow: hidden;
+    padding-bottom: 135px;
+}
+.blog-bottom{
+	overflow: hidden;
+}
+.blog-padding{
+	padding-left: 10%;
+}
+.single-blog{
+	width: 45%;
+	float: left;
+}
+.single-blog .blog-img{
+
+}
+.single-blog .blog-img img{
+	width: 100%;
+}
+.single-blog p.c-title{
+	padding: 32px 0;
+}
+.single-blog h1.c-heading{
+	padding-bottom: 45px;
+}
+.single-blog p.c-para{}
+
+
+/*newsletter area start*/
+.newsletter-area{
+	background: #f0f0f0;
+}
+.newsletter{
+	padding: 75px 0;
+    width: 41%;
+    margin: 0 auto;
+    text-align: center;
+}
+.newsletter h1{
+	font-size: 30px;
+    color: #414141;
+    padding-bottom: 80px;
+}
+.email{
+	 position: relative;
+}
+.email input{
+	border: none;
+    background: none;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    outline: 0;
+}
+.email img{
+	position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+/* Button area start*/
+.button-area{
+	padding-top: 35px;
+    padding-bottom: 170px;
+    text-align: center;
+}
+
+.button-area a{
+	text-decoration: none;
+    font-size: 20px;
+    color: #626262;
+    border: 2px solid #626262;
+    display: inline-block;
+    padding: 22px 43px;
+    transition: all .3s;
+}
+.button-area a:hover{
+	opacity: .5;
+}
+
+/* footer area start*/
+
+footer{
+	background: #f0f0f0;
+}
+.footer-area{
+	padding: 40px 0;
+	overflow: hidden;
+}
+.copyright{
+	float: left;
+    width: 25%;
+    color: #626262;
+}
+.copyright p{
+	display: inline;
+}
+.copyright span{
+	padding-left: 20px;
+}
+
+.social-icon{
+	float: right;
+	width: 21%;
+}
+.social-icon ul{
+	list-style: none;
+    float: right;
+}
+.social-icon ul li{
+	float: left;
+    margin-left: 25px;
+}
+.social-icon ul li a{
+	text-decoration: none;
+	color: #626262;
+}
+.social-icon ul li a:hover{
+	color: #000;
+}
+.social-icon ul li a i{
+	color: #626262;
+}
+.social-icon ul li a:hover i{
+	color: #000;
+}
